@@ -15,3 +15,23 @@ The goal of this project is to explore whether NFL player salaries can be predic
 - Apply a multiple linear regression model
 - Evaluate model performance using R², MAE, and RMSE
 - Analyze which metrics are most influential in predicting salary
+---
+
+## 📊 Data Sources
+
+- **Salaries:** [Kaggle NFL 2017 Salaries Dataset](https://www.kaggle.com/datasets/adhurimquku/nfl-player-salaries-and-statistics)
+- **Performance Reference:** [Pro Football Reference 2017](https://www.pro-football-reference.com/years/2017/)
+- **Cap Data:** [Spotrac Salary Rankings](https://www.spotrac.com/nfl/rankings/_/year/2017)
+
+> 🧪 Note: Player performance statistics were **simulated** to reflect typical 2017 values by position.
+
+---
+
+## 🧠 Model Summary
+
+- **Model Type:** Multiple Linear Regression
+- **Framework:** scikit-learn (Python)
+- **Performance:**
+  - R²: -0.045 (poor fit)
+  - MAE: ~$1.25M
+  - RMSE: ~$1.9M
